@@ -1,0 +1,244 @@
+# 📊 TOP 5 RESULTS - DRUG SAFETY ANALYSIS
+## FAERS Analysis - February 23, 2026
+
+**Analysis Date:** February 23, 2026  
+**Data Source:** FDA FAERS (Adverse Event Reporting System)  
+**Total Reports Analyzed:** 1,349,105  
+**Total Drugs Analyzed:** 11,408  
+**Total Side Effects:** 12,726  
+
+---
+
+## 🎯 TOP 5 DRUG-SIDE EFFECT COMBINATIONS
+
+### ⚠️ RESULT #1 - MOST RISKY
+```
+Drug: BIMZELX
+Side Effect: Product dose omission
+PRR Score: 9.25
+Status: ⚠️ IMPORTANT!
+Risk Level: 9.25x more risky than normal
+```
+
+**Interpretation:** People taking BIMZELX are **9.25 times more likely** to report product dose omission as a side effect or issue. This is the highest risk combination found.
+
+---
+
+### ⚠️ RESULT #2
+```
+Drug: ZEPBOUND
+Side Effect: Diarrhoea
+PRR Score: 2.81
+Status: ⚠️ IMPORTANT!
+Risk Level: 2.81x more risky than normal
+```
+
+**Interpretation:** People taking ZEPBOUND are **2.81 times more likely** to experience diarrhea. This is significantly more likely than the general population.
+
+---
+
+### ⚠️ RESULT #3
+```
+Drug: DUPIXENT
+Side Effect: Product dose omission
+PRR Score: 2.33
+Status: ⚠️ IMPORTANT!
+Risk Level: 2.33x more risky than normal
+```
+
+**Interpretation:** People taking DUPIXENT are **2.33 times more likely** to report product dose omission issues.
+
+---
+
+### ⚠️ RESULT #4
+```
+Drug: ZEPBOUND
+Side Effect: Drug ineffective
+PRR Score: 2.31
+Status: ⚠️ IMPORTANT!
+Risk Level: 2.31x more risky than normal
+```
+
+**Interpretation:** People taking ZEPBOUND are **2.31 times more likely** to report that the drug is ineffective.
+
+---
+
+### ⚠️ RESULT #5
+```
+Drug: BIMZELX
+Side Effect: Drug ineffective
+PRR Score: 2.25
+Status: ⚠️ IMPORTANT!
+Risk Level: 2.25x more risky than normal
+```
+
+**Interpretation:** People taking BIMZELX are **2.25 times more likely** to report that the drug is ineffective.
+
+---
+
+## 📈 KEY STATISTICS FROM YOUR ANALYSIS
+
+```
+Total Combinations Checked: 25
+Important Combinations (PRR ≥ 2.0): 5
+
+PRR Score Analysis:
+├─ Average PRR: 1.43 (typical risk level across all combinations)
+├─ Median PRR: 1.07 (middle value)
+├─ Highest PRR: 9.25 (BIMZELX → Product dose omission)
+└─ Lowest PRR: 0.03 (rarely occurs with these drugs)
+```
+
+---
+
+## 🔍 ANALYSIS INSIGHTS
+
+### Most Concerning Drug:
+**BIMZELX** appears in 3 of the top 5 results:
+- Rank #1: Product dose omission (PRR = 9.25)
+- Rank #5: Drug ineffective (PRR = 2.25)
+
+This suggests BIMZELX has notable reporting patterns compared to the general database.
+
+### Most Common Issue:
+**Product dose omission** appears in 2 of the top 5:
+- BIMZELX (PRR = 9.25)
+- DUPIXENT (PRR = 2.33)
+
+This could indicate dosing compliance issues with these drugs.
+
+### ZEPBOUND Findings:
+**ZEPBOUND** also appears in 2 top results:
+- Rank #2: Diarrhea (PRR = 2.81)
+- Rank #4: Drug ineffective (PRR = 2.31)
+
+These are different types of issues (side effect vs. efficacy).
+
+---
+
+## 💡 WHAT THIS MEANS
+
+### All Top 5 Are "IMPORTANT" (PRR ≥ 2.0)
+- Every top result is at least 2x more likely than normal
+- This is significant from a drug safety perspective
+- Doctors should be aware of these associations
+
+### Product Dose Omission - The Standout
+- BIMZELX showing 9.25x PRR for dose omission is notable
+- This could mean:
+  - Patients are forgetting doses
+  - Dosing is complex or confusing
+  - Supply/pharmacy issues exist
+  - Patients choosing not to take doses
+
+### Drug Efficacy Issues
+- Both ZEPBOUND and BIMZELX report "drug ineffective"
+- This is different from side effects
+- Could indicate patients' expectations don't match results
+- Or genuinely lower effectiveness in some populations
+
+---
+
+## 📊 COMPARISON TO OTHER RESULTS
+
+```
+Drugs with High PRR:
+├─ BIMZELX: 2 appearances (PRR: 9.25, 2.25)
+├─ ZEPBOUND: 2 appearances (PRR: 2.81, 2.31)
+├─ DUPIXENT: 1 appearance (PRR: 2.33)
+├─ PREDNISONE: 3 appearances but all PRR < 2.0 (not Important)
+└─ Average: 1.43
+
+This shows that BIMZELX and ZEPBOUND stand out from the analysis.
+```
+
+---
+
+## ✅ COMPLETION STATUS
+
+**Task 4: Write Down Top 5 Results - COMPLETE ✅**
+
+**What was captured:**
+- ✅ Top 5 drug-side effect combinations
+- ✅ PRR scores for each
+- ✅ Risk interpretation
+- ✅ Key statistics
+- ✅ Analysis insights
+
+---
+
+## 🎯 NEXT STEPS (Remaining Tasks)
+
+### Task 5: Test Your Code
+Run the test suite to verify everything works:
+```bash
+cd /Users/hasinisridhar/Documents/faers_prr_project/python
+python3 test_faers_prr.py
+```
+
+### Task 6: Write Summary Report (1-2 Pages)
+Include:
+- What is PRR? (explanation)
+- Your top 5 findings (with numbers)
+- Analysis & observations
+- Real-world significance
+- Recommendations
+
+### Task 7: Create Git Repository & Present
+```bash
+cd /Users/hasinisridhar/Documents/faers_prr_project
+git init
+git config user.name "Your Name"
+git config user.email "your.email@school.com"
+git add .
+git commit -m "Drug safety analysis - FAERS PRR study"
+```
+
+Then prepare 5-minute presentation.
+
+---
+
+## 🎓 ANALYSIS QUESTIONS - ANSWERS
+
+Based on your results, here are the answers:
+
+### Q1: What is the highest PRR score? What does it mean?
+**Answer:** The highest PRR is **9.25** for BIMZELX causing product dose omission. This means people taking BIMZELX are **9.25 times more likely** to have dose omission issues compared to the general population. This is highly significant.
+
+### Q2: Which drug appears most often in the top 5?
+**Answer:** **BIMZELX** appears most frequently (2 times in top 5). This drug shows the strongest associations with reported issues.
+
+### Q3: Which side effect appears most often?
+**Answer:** **Product dose omission** appears most often (2 times in top 5). This suggests dosing compliance may be an issue with certain drugs.
+
+### Q4: Are any results surprising? Why or why not?
+**Answer:** The high PRR for BIMZELX (9.25) is striking - it's much higher than the others. Dose omission being the top issue is interesting because it's not a typical "side effect" but more of a compliance/usage issue. ZEPBOUND showing diarrhea at 2.81x is more expected for a medication used for weight loss.
+
+### Q5: Why might these combinations have high PRR scores?
+**Answer:** 
+- **Product dose omission:** Could indicate complex dosing regimens, patient non-compliance, or supply issues
+- **Diarrhea (ZEPBOUND):** Expected side effect of weight loss medications
+- **Drug ineffective:** May indicate the drug doesn't work for all patients, or expectations weren't managed properly
+
+---
+
+## 📋 SUMMARY TABLE
+
+| Rank | Drug | Side Effect | PRR | Status |
+|------|------|-------------|-----|--------|
+| 1 | BIMZELX | Product dose omission | 9.25 | ⚠️ IMPORTANT |
+| 2 | ZEPBOUND | Diarrhea | 2.81 | ⚠️ IMPORTANT |
+| 3 | DUPIXENT | Product dose omission | 2.33 | ⚠️ IMPORTANT |
+| 4 | ZEPBOUND | Drug ineffective | 2.31 | ⚠️ IMPORTANT |
+| 5 | BIMZELX | Drug ineffective | 2.25 | ⚠️ IMPORTANT |
+
+---
+
+**Status: TASK 4 COMPLETE ✅**
+
+**Next: Move to Task 5 - Run Tests**
+
+---
+
+*Document Created: February 23, 2026*
+*From: Your FAERS Analysis Program Output*

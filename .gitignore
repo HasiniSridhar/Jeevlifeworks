@@ -1,0 +1,13 @@
+*.csv
+drug_file.csv
+reac_file.csv
+merged_output.csv
+merged_outputold.csv
+part-*.csv
+outputs/
+.DS_Store
+__pycache__/
+*.pyc
+*.pyo
+.vscode/
+.idea/
